@@ -1,7 +1,7 @@
 {
   "name": "react_imc",
   "version": "1.0.0",
-  "description": "",
+  "description": "IMC Calculator is a pet project in React.",
   "private": true,
   "scripts": {
     "test": "jest",

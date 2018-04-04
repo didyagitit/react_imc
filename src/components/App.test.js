@@ -13,11 +13,11 @@ describe('<App />', () => {
 
     expect(wrapper.find(ImcForm)).toHaveLength(1);
   });
-  
+
   it('has a h3 header with app title', () => {
     const wrapper = shallow(<App />);
     const header = wrapper.find('h3');
-    
+
     expect(header).toHaveLength(1);
     expect(header.text()).toEqual('IMC Calculator');
   });
