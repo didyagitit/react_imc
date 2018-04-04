@@ -49,12 +49,12 @@ class ImcForm extends React.Component {
         </div>
         <NumberInput
           name="height"
-          label="Height(meters)"
+          label="Height (meters)"
           placeholder={0}
           onChange={this.handleInputChange} />
         <NumberInput
           name="weight"
-          label="Weight(kg)"
+          label="Weight (kg)"
           placeholder={0}
           onChange={this.handleInputChange} />
         <div className="row">

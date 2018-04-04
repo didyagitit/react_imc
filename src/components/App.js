@@ -10,7 +10,7 @@ class App extends React.Component {
           <div className="col-md-6 offset-md-3">
             <div className="card card-outline-secondary">
               <div className="card-header">
-                <h3 className="mb-0">IMC Calculator</h3>    
+                <h3 className="mb-0">IMC Calculator</h3>
               </div>
               <div className="card-body">
                 <ImcForm />
