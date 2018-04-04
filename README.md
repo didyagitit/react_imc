@@ -12,11 +12,18 @@ Install all dependencies
 npm install
 ```
 
-To Run in development
+To compile bundle.js in development
 
 ```js
 npm run dev
 ```
+
+To run webpack-dev-server
+
+```js
+npm run start:dev
+```
+
 To Run tests
 
 ```js
