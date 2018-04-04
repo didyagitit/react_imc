@@ -12,19 +12,19 @@ Install all dependencies
 npm install
 ```
 
-To compile bundle.js in development
+Compile bundle.js in development
 
 ```js
 npm run dev
 ```
 
-To run webpack-dev-server
+Run webpack-dev-server
 
 ```js
 npm run start:dev
 ```
 
-To Run tests
+Run tests
 
 ```js
 npm test
