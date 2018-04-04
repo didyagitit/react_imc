@@ -17,7 +17,7 @@ To Run in development
 ```js
 npm run dev
 ```
-To Run in development
+To Run tests
 
 ```js
 npm test
