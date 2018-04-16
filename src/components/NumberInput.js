@@ -23,6 +23,6 @@ NumberInput.propTypes = {
   label: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   placeholder: PropTypes.number
-}
+};
 
 export default NumberInput;

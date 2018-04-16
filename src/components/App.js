@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import ImcForm from './ImcForm';
 
 class App extends React.Component {

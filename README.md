@@ -8,24 +8,29 @@ Usage
 
 Install all dependencies
 
-```js
+```bash
 npm install
 ```
 
 Compile bundle.js in development
 
-```js
+```bash
 npm run dev
 ```
 
 Run webpack-dev-server
 
-```js
+```bash
 npm run start:dev
 ```
 
 Run tests
 
-```js
+```bash
 npm test
+```
+Run lint
+
+```bash
+npm run lint
 ```

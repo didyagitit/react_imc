@@ -6,12 +6,19 @@
   "scripts": {
     "test": "jest",
     "start:dev": "webpack-dev-server --mode development",
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "dev": "npm run lint && webpack --mode development",
+    "build": "npm run lint && webpack --mode production",
+    "lint": "./node_modules/.bin/eslint src/"
   },
   "author": "Bruno Paiva",
+  "repository": "git+https://github.com/didyagitit/imc_react.git",
+  "keywords": [
+    "react",
+    "webpack"
+  ],
   "license": "MIT",
   "dependencies": {
+    "babel-eslint": "^8.2.3",
     "bootstrap": "^4.0.0",
     "jquery": "^1.9.1",
     "popper.js": "^1.12.9",
@@ -28,6 +35,8 @@
     "css-loader": "^0.28.11",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
     "jest": "^22.4.3",
     "react-test-renderer": "^16.3.0",
     "regenerator-runtime": "^0.11.1",

@@ -20,9 +20,9 @@ describe('<NumberInput />', () => {
 
       expect(numberInput.prop('type')).toEqual('number');
     });
-  
+
     it('renders an input of type number with label', () => {
-      const labelText = "Weight(kg)";
+      const labelText = 'Weight(kg)';
       const wrapper = shallow(
         <NumberInput
           name="weight"
